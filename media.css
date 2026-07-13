@@ -74,4 +74,30 @@
     width: 100%;
     margin-left: 30px;
   }
+
+  /* About section styling */
+
+  .about-section {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .about-h1 {
+    font-size: 44px;
+  }
+
+  .about-para {
+    font-size: 16px;
+  }
+
+  .about-box {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .about-box .food-box {
+    width: 300px;
+    padding: 14px 12px;
+  }
 }

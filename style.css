@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Cookie&family=Engagement&family=Gabarito:wght@400..900&family=Leckerli+One&family=Lexend+Deca:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Playball&family=Praise&family=Quicksand:wght@300..700&family=SN+Pro:ital,wght@0,200..900;1,200..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Caveat:wght@400..700&family=Cookie&family=Engagement&family=Gabarito:wght@400..900&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Leckerli+One&family=Lexend+Deca:wght@100..900&family=Lilita+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Orelega+One&family=Pacifico&family=Playball&family=Praise&family=Quicksand:wght@300..700&family=SN+Pro:ital,wght@0,200..900;1,200..900&family=Ultra&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap");
 
 * {
   margin: 0;
@@ -26,11 +26,12 @@ nav {
   align-items: center;
   width: 100%;
   height: 70px;
-  /* box-shadow: 0 0 5px 5px gray; */
+  box-shadow: 0 0 5px 5px gray;
+  backdrop-filter: blur(20px);
   padding: 15px 50px;
   font-family: "Winky Rough", sans-serif;
   position: fixed;
-  top: 20px;
+  top: 0px;
   left: 0;
 }
 
@@ -122,4 +123,94 @@ nav ul li a {
 
 .hero-img img {
   width: 520px;
+}
+
+/* About section styling */
+
+.about-section {
+  text-align: center;
+  width: 100%;
+  height: 100dvh;
+}
+
+.about-h1 {
+  font-size: 45px;
+  font-family: "Akaya Kanadaka", system-ui;
+}
+
+.about-para {
+  font-size: 18px;
+  font-family: "SN Pro", sans-serif;
+  margin-top: 10px;
+}
+
+.about-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 60px;
+}
+
+.about-box .food-box {
+  width: 270px;
+  height: auto;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 10px 12px;
+  box-shadow: 0 0 1px 1px #d6d0d0;
+  transition: all 0.9s ease-in-out;
+}
+
+.about-box .food-box:hover {
+  box-shadow: 0 0 5px 5px gray;
+}
+
+.food-box .food-img {
+  width: 100%;
+  height: 150px;
+
+  img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+  }
+}
+
+.food-info {
+  h3 {
+    font-size: 25px;
+    font-family: "Akaya Kanadaka", system-ui;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: lighter;
+    color: #514e4e;
+    margin-top: 8px;
+  }
+  span,
+  button {
+    margin-top: 15px;
+  }
+
+  span {
+    font-size: 16px;
+    font-weight: 900;
+    font-family: "Ultra", serif;
+  }
+
+  button {
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-family: "Winky Rough", sans-serif;
+    background-color: orange;
+    color: white;
+    margin-left: 14px;
+  }
 }
