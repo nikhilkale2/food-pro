@@ -135,4 +135,15 @@
       margin-left: 80px;
     }
   }
+
+  .hotel-news {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+    margin-top: 80px;
+
+    .news {
+      width: 90%;
+    }
+  }
 }

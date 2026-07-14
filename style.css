@@ -262,3 +262,59 @@ nav ul li a {
     color: white;
   }
 }
+
+/* Hotel news  */
+
+.hotel-news {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  padding: 50px 50px;
+
+  .news {
+    width: 300px;
+    height: 350px;
+    border-radius: 30px;
+    box-shadow: 0 0 5px 5px gray;
+    padding: 20px 20px;
+
+    .fa-bowl-rice,
+    .fa-truck,
+    .fa-face-grin-stars {
+      font-size: 55px;
+    }
+
+    .fa-bowl-rice {
+      color: green;
+    }
+
+    .fa-truck {
+      color: red;
+    }
+    .fa-face-grin-stars {
+      color: blue;
+    }
+
+    h1 {
+      font-size: 30px;
+      font-family: "Akaya Kanadaka", system-ui;
+      margin: 6px 0;
+    }
+
+    p {
+      text-align: justify;
+      font-size: 16px;
+      font-family: "Quicksand", sans-serif;
+    }
+
+    a {
+      font-size: 20px;
+      font-family: "Quicksand", sans-serif;
+      display: inline-block;
+      margin-top: 10px;
+      color: orange;
+    }
+  }
+}
