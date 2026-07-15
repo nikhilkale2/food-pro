@@ -146,4 +146,67 @@
       width: 90%;
     }
   }
+
+  /* Chef section */
+
+  .hotel-chef {
+    height: 950px;
+  }
+
+  .chef-section {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+  }
+
+  .chef-info {
+    width: 100%;
+    text-align: center;
+    padding: 0 12px;
+
+    h2 {
+      font-size: 35px;
+    }
+
+    p {
+      font-size: 18px;
+      margin-top: 12px;
+    }
+  }
+
+  .chef-social {
+    margin-top: 18px;
+    margin-left: 20px;
+
+    .icons {
+      padding: 4px;
+      border-radius: 50px;
+    }
+
+    i {
+      font-size: 28px;
+    }
+  }
+
+  .chef-img img {
+    width: 350px;
+    height: 350px;
+    background-color: orange;
+    border-radius: 50%;
+  }
+
+  .masala-img {
+    position: relative;
+    left: 0;
+    bottom: 220px;
+
+    img {
+      width: 400px;
+      transform: rotate(-320deg);
+      -webkit-transform: rotate(-320deg);
+      -moz-transform: rotate(-320deg);
+      -ms-transform: rotate(-320deg);
+      -o-transform: rotate(-320deg);
+    }
+  }
 }
