@@ -250,4 +250,40 @@
       margin-left: 10px;
     }
   }
+
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    padding: 20px 10px;
+    width: 100%;
+    height: auto;
+
+    .box1 {
+      width: 100%;
+      text-align: center;
+      h1 {
+        font-size: 34px;
+      }
+    }
+
+    .box2 {
+      margin-top: 25px;
+      h1 {
+        font-size: 32px;
+      }
+    }
+
+    .box3 {
+      margin-top: 25px;
+
+      h1 {
+        font-size: 34px;
+      }
+    }
+  }
+
+  /* media queries bracket */
 }

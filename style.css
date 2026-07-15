@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Caveat:wght@400..700&family=Cookie&family=Engagement&family=Gabarito:wght@400..900&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Leckerli+One&family=Lexend+Deca:wght@100..900&family=Lilita+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Orelega+One&family=Pacifico&family=Playball&family=Praise&family=Quicksand:wght@300..700&family=SN+Pro:ital,wght@0,200..900;1,200..900&family=Ultra&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Caveat:wght@400..700&family=Cookie&family=Engagement&family=Gabarito:wght@400..900&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=League+Spartan:wght@100..900&family=Leckerli+One&family=Lexend+Deca:wght@100..900&family=Lilita+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Orelega+One&family=Pacifico&family=Playball&family=Praise&family=Quicksand:wght@300..700&family=SN+Pro:ital,wght@0,200..900;1,200..900&family=Ultra&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap");
 
 * {
   margin: 0;
@@ -447,5 +447,75 @@ nav ul li a {
   }
   p {
     margin-left: 50px;
+  }
+}
+
+/* footer section */
+
+.footer-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  width: 100%;
+  height: 300px;
+  background-color: wheat;
+  padding: 40px 20px;
+
+  .box1 {
+    width: 500px;
+
+    h1 {
+      font-size: 38px;
+      font-family: "Winky Rough", sans-serif;
+    }
+
+    p {
+      font-size: 18px;
+      font-family: "League Spartan", sans-serif;
+      margin-top: 15px;
+      line-height: 20px;
+    }
+  }
+
+  .box2 {
+    h1 {
+      font-size: 38px;
+      font-family: "Winky Rough", sans-serif;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    ul li {
+      margin-top: 15px;
+    }
+
+    ul li a {
+      color: black;
+      font-size: 20px;
+      font-family: "League Spartan", sans-serif;
+    }
+  }
+
+  .box3 {
+    h1 {
+      font-size: 38px;
+      font-family: "Winky Rough", sans-serif;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    ul li {
+      margin-top: 15px;
+    }
+
+    ul li a {
+      color: black;
+      font-size: 20px;
+      font-family: "League Spartan", sans-serif;
+    }
   }
 }
