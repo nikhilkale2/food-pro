@@ -207,6 +207,47 @@
       -moz-transform: rotate(-320deg);
       -ms-transform: rotate(-320deg);
       -o-transform: rotate(-320deg);
+      z-index: -1;
+    }
+  }
+
+  /* user review section */
+
+  .review-section {
+    width: 100%;
+    height: auto;
+  }
+
+  .users-review {
+    width: 100%;
+    height: auto;
+    padding: 20px 15px;
+    border-radius: 20px;
+    margin-top: 120px;
+    margin-left: 13px;
+
+    h1 {
+      font-size: 20px;
+      font-family: "Winky Rough", sans-serif;
+      margin-bottom: 40px;
+    }
+
+    p {
+      width: 100%;
+      margin-top: 10px;
+      font-size: 16px;
+    }
+  }
+
+  .user-box {
+    h4 {
+      font-size: 16px;
+      width: 100%;
+      margin-top: 30px;
+    }
+
+    p {
+      margin-left: 10px;
     }
   }
 }
