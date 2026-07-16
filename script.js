@@ -8,6 +8,17 @@ lenis.on("scroll", (e) => {
   console.log(e);
 });
 
+// nav links smooth scrolling
+
+document.querySelectorAll('a[href^="#"]').forEach((link) => {
+  link.addEventListener("click", (e) => {
+    e.preventDefault();
+
+    const target = link.getAttribute("href");
+    lenis.scrollTo(target);
+  });
+});
+
 const mm = gsap.matchMedia();
 
 // mm.add("(min-width:300px)", () => {});
