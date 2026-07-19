@@ -95,8 +95,8 @@ gsap.from(".hotel-section .hotel-info", {
   scrollTrigger: {
     trigger: ".hotel-info",
     scroller: "body",
-    start: "top 80%",
-    end: "top 30%",
+    start: "top 84%",
+    end: "top 40%",
     scrub: 2,
   },
 });
